@@ -1,0 +1,72 @@
+<html>
+<h1>Hello</h1>
+<ul>
+<li><a href="http://kubsu.ru">Кубанский государственный университет http</a></li>
+<li><a href="https://kubsu.ru">Кубгу https</a></li>
+<li><a href ="https://mail.google.com"><img src="image.jpg" width=175></a></li>
+<li><a href="/vnutr">Внутренняя</a></li>
+<li><a href="/">Главная</a></li>
+<li><a href="#fragm">фрагмент текущей</a></li>
+<li><a href="https://mail.google.com/?id=234">С id</a></li>
+<li><a href="second.html">Относительная</a></li>
+<li><a href="about/thrid.html">Относительная в about</a></li>
+<li><a href="https://mail.google.com">Gmail</a></li>
+<li><a href="https://mail.google.com" rel = "notfollow">Поисковикам</a></li>
+<li><a href="https://dzen.ru" rel = "noindex">Индекс.</a></li>
+<li><ol> 
+  <li><a href="https://dzen.ru/"title="dzen">Dzen</a></li>
+  <li><a href="https://mail.google.com"title="gmail">Gmail</a></li>
+</ol></li>  
+</ul>
+<p id="fragm">F</p>
+   <form>
+<div>
+  <label for="init">ФИО:</label>
+  <input type="text" id="init" name="init">
+</div>
+ <div>
+<label for="phone">Телефон:</label>
+<input type="tel" id="phone" name="phone"></div>
+
+        <div>
+            <label for="email">e-mail:</label>
+            <input type="email" id="email" name="email">
+        
+            <label for="brithdate">Дата рождения:</label>
+            <input type="date" id="birthdate" name="brithdate">
+       
+
+        <fieldset>
+            <legend>Пол</legend>
+            <label><input type="radio" name="gender" value="male"> Мужской</label>
+            <label><input type="radio" name="gender" value="female"> Женский</label>
+        </fieldset>
+
+      
+            <label for="langs">Любимый язык программирования:</label>
+            <select id="langs" name="langs" multiple>
+                <option value="pascal">Pascal</option>
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="javascript">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="haskel">Haskel</option>
+                <option value="clojure">Clojure</option>
+                <option value="prolog">Prolog</option>
+                <option value="scala">Scala</option>
+            </select>
+       
+            <label for="bio">Биография:</label>
+            <textarea id="bio" name="bio"></textarea>
+        
+            <label>
+                <input type="checkbox" name="agreement">
+                С контрактом ознакомлен (а)
+            </label>
+        
+            <button type="submit">Сохранить</button>
+        </div>
+    </form>
+</html>

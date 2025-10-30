@@ -1,0 +1,286 @@
+
+header {
+    order:-1;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-color: aquamarine;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: row;
+        padding: 10px;
+}
+#log{
+    border-radius: 50%;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+nav3{
+    order:-1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:bisque ;
+    padding: 10px;
+
+}
+nav{
+    display: flex;  
+    background-color:bisque ;
+    height: 30px;
+    padding: 5px;
+    border-bottom-left-radius:10px ;
+    align-items: center;
+}  
+ss{
+    margin-left: 5px;
+    
+} 
+ss a{
+    text-decoration: none;
+}
+nav2{
+    width: 100%;
+    display: none;
+    flex-direction: row-reverse;
+}
+#list{
+    background-color: lightblue;
+    width: 100%;
+    padding: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+ul li{
+    margin-top:10px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: center;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li ol{
+    padding: 0px;
+}
+ul li ol li{
+height: 30px;  
+}
+
+Tab{
+    order:-1;
+    height: 200px;
+    width: 100%;
+    background-color: hotpink;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table tr:nth-child(odd) {
+    background: #b9b7b7;
+}
+
+table tr:nth-child(even) {
+    background: #fff;
+}
+form{
+    background-color: tomato;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0%;
+}
+first{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 10px;
+}
+yaz{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+}
+fieldset{
+    display: flex;
+    width: 100%;
+}
+#bio{
+    width: 100%;
+    height: 330px;
+}
+footer{
+    background-color: bisque;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+}
+autor{
+    margin-left: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+@media (min-width: 1024px) {
+header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-color: aquamarine;
+    border-radius: 10px;
+    flex-direction: row;
+}
+#log{
+    border-radius: 50%;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+nav3{
+    display: none;
+}
+nav{
+    display: flex;  
+    background-color:bisque ;
+    height: 30px;
+    padding: 5px;
+    border-bottom-left-radius:10px ;
+    align-items: center;
+}  
+ss{
+    margin-left: 5px;
+    
+} 
+ss a{
+    text-decoration: none;
+}
+nav2{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#list{
+    background-color: lightblue;
+    width: 100%;
+    max-width: 960px;
+    padding: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+ul li{
+    margin-top:10px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: center;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li ol{
+    padding: 0px;
+}
+ul li ol li{
+height: 30px;  
+}
+
+Tab{
+    order:0;
+    height: 200px;
+    width: 100%;
+    max-width: 960px;
+    background-color: hotpink;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table tr:nth-child(odd) {
+    background: #b9b7b7;
+}
+
+table tr:nth-child(even) {
+    background: #fff;
+}
+form{
+    background-color: tomato;
+    padding: 20px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0%;
+}
+first{
+    width: 100%;
+    max-width: 880px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+yaz{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+}
+fieldset{
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+}
+#bio{
+    max-width: 800px;
+    width: 100%;
+    height: 330px;
+}
+footer{
+    background-color: bisque;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+}
+autor{
+    margin-left: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+
+}

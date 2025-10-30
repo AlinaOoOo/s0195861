@@ -1,0 +1,151 @@
+<html>
+  <head>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <header >
+    <logo>
+      <img id="log" src="logo.jpg" width="100px" height="100px">
+    </logo>
+    <h1>Сайт</h1>
+    <nav2>
+    <nav>
+      <ss><a href="#list"> Список</a></ss>
+      <ss><a href="#table"> Таблица</a></ss>
+      <ss><a href="#form"> Форма</a></ss>
+    </nav>
+    </nav2>
+
+    
+
+  </header>
+  <nav3>
+    <ss><a href="#table"> Таблица</a></ss>
+    <ss><a href="#list"> Список</a></ss>
+      <ss><a href="#form"> Форма</a></ss>
+  </nav3>
+  <div id="list">
+  <p id="fragm">Фрагмент</p>
+<ul>
+<li><a href="http://kubsu.ru">Кубанский государственный университет http</a></li>
+<li><a href="https://kubsu.ru">Кубгу https</a></li>
+<li><a href ="https://mail.google.com"><img src="image.jpg" width="100"></a></li>
+<li><a href="/vnutr">Внутренняя</a></li>
+<li><a href="/">Главная</a></li>
+<li><a href="#fragm">фрагмент текущей</a></li>
+<li><a href="https://mail.google.com/?id=234">С id</a></li>
+<li><a href="second.html">Относительная</a></li>
+<li><a href="about/thrid.html">Относительная в about</a></li>
+<li><a href="https://mail.google.com">Gmail</a></li>
+<li><a href="https://mail.google.com" rel = "notfollow">Поисковикам</a></li>
+<li><a href="https://dzen.ru" rel = "noindex">Индекс.</a></li>
+<li><ol> 
+  <li><a href="https://dzen.ru/"title="dzen">Dzen</a></li>
+  <li><a href="https://mail.google.com"title="gmail">Gmail</a></li>
+</ol></li>  
+</ul>
+</div>
+<Tab id="table">
+  <table border="3px">
+      <tr>
+    <th>Колонка</th>
+    <th>Колонка</th>
+     <th>Колонка</th>
+    <th>Колонка</th>
+</tr>
+<tr>
+    <td colspan="2">ячейка</td>
+     <td>ячейка</td>
+    <td>ячейка</td>
+</tr>
+<tr>
+    <td>ячейка</td>
+    <td>ячейка</td>
+     <td>ячейка</td>
+    <td>ячейка</td>
+</tr>
+<tr>
+    <td>ячейка</td>
+    <td>ячейка</td>
+     <td>ячейка</td>
+    <td>ячейка</td>
+</tr>
+<tr>
+    <td>ячейка</td>
+    <td>ячейка</td>
+     <td>ячейка</td>
+    <td>ячейка</td>
+</tr>
+<tr>
+    <td>ячейка</td>
+    <td>ячейка</td>
+     <td>ячейка</td>
+    <td>ячейка</td>
+</tr>
+<tr>
+    <td>ячейка</td>
+    <td>ячейка</td>
+     <td>ячейка</td>
+    <td>ячейка</td>
+</tr>
+  </table>
+</Tab>
+
+   <form id="form">
+<first>
+  <label for="init">ФИО:</label>
+  <input type="text" id="init" name="init" required>
+
+
+<label for="phone">Телефон:</label>
+<input type="tel" id="phone" name="phone" required pattern="\+7\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}">
+
+            <label for="email">e-mail:</label>
+            <input type="email" id="email" name="email" required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
+        
+            <label for="brithdate">Дата рождения:</label>
+            <input type="date" id="birthdate" name="brithdate" required>
+   </first>    
+
+        <fieldset>
+            <legend>Пол</legend>
+            <label><input type="radio" name="gender" value="male" required> Мужской</label>
+            <label><input type="radio" name="gender" value="female" required> Женский</label>
+        </fieldset>
+
+     
+            <label for="langs">Любимый язык программирования:</label>
+             <yaz>
+            <select id="langs" name="langs" multiple required>
+                <option value="pascal">Pascal</option>
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="javascript">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="haskel">Haskel</option>
+                <option value="clojure">Clojure</option>
+                <option value="prolog">Prolog</option>
+                <option value="scala">Scala</option>
+            </select>
+       </yaz>
+            <label for="bio">Биография:</label>
+            <textarea id="bio" name="bio" required></textarea>
+        
+            <label>
+                <input type="checkbox" name="agreement" required>
+                С контрактом ознакомлен (а)
+            </label>
+        
+            <button type="submit">Сохранить</button>
+
+    </form>
+    <footer>
+<autor>(с) Телегина Алина</autor>
+</footer>
+</body>
+</html>
+
+
